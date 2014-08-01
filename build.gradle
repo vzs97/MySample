@@ -1,0 +1,14 @@
+task wrap(type: Wrapper) {
+    gradleVersion = '1.8'
+    scriptFile = 'g'
+}
+
+
+subprojects {
+    apply plugin: 'java'
+    repositories {
+        mavenCentral()
+    }
+    // 所有的子项目都需要的依赖
+    dependencies { compile 'org.slf4j:slf4j-api:1.6.6' }
+}
