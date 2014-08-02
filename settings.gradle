@@ -1,1 +1,1 @@
-include 'servlet-3-tourist'
+include 'servlet-3-tutorial', "servlet-common"
