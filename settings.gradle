@@ -1,1 +1,1 @@
-include 'servlet-3-tutorial', "servlet-common"
+include 'servlet-3-tutorial', "servlet-common", "springMVC-handlebars"
