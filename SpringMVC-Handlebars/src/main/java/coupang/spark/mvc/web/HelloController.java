@@ -26,4 +26,10 @@ public class HelloController {
         return null;
     }
 
+
+    @RequestMapping(value = "/home", method = RequestMethod.GET)
+    public String home(){
+        return "home";
+    }
+
 }
