@@ -1,4 +1,0 @@
-MySample
-========
-
-MySample
